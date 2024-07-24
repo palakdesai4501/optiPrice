@@ -1,23 +1,27 @@
 .reviews-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 20px;
+  justify-content: space-around; /* Adjust to push items to opposite ends */
+  align-items: flex-start;
+  /* padding: 20px; */
   background-color: #d4d4d4;
   min-height: 50vh;
-  position: relative;
+}
+
+.lottie-container {
+  width: 500px;
+  height: 500px;
 }
 
 .rating-container {
-  position: absolute;
-
-  width: 80%;
+  width: 100%;
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  margin-right: 200px;
+  padding-right: 100px;
+  padding-top: 90px;
+  justify-content: space-around;
+  
 }
 
 .rating-slider {
@@ -68,14 +72,13 @@
 }
 
 .comment-container {
-  width: 80%;
+  width: 100%;
   max-width: 500px;
-  margin: 50px 0;
-  padding-top: 80px;
+  margin-top: 150px;
 }
 
 input[type="number"] {
-  width: 120%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
