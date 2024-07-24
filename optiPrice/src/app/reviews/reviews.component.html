@@ -9,8 +9,13 @@
       <span class="emoticon" [style.color]="getEmoticonColor(5)">😄</span>
     </div>
     <div class="rating-value">{{rating | number:'1.1-1'}}</div>
-  </div>
-  <div class="comment-container">
-    <textarea [(ngModel)]="comment" placeholder="Write your review here..."></textarea>
+ 
+    <div class="comment-container">
+      <input type="number" 
+             [(ngModel)]="numberOfComments" 
+             (input)="validateNumberOfComments()"
+             min="1" 
+             placeholder="Number of comments">
+    </div>
   </div>
 </div>

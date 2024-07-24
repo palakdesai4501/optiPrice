@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ReviewsComponent {
   rating: number = 3;
-  comment: string = '';
+  numberOfComments: number | null = null;
 
   getEmoticonColor(value: number): string {
     if (value <= 1) return '#ED4337';
@@ -19,5 +19,14 @@ export class ReviewsComponent {
     if (value <= 3) return '#FFD700';
     if (value <= 4) return '#9ACD32';
     return '#228B22';
+  }
+
+  validateNumberOfComments() {
+    if (this.numberOfComments !== null) {
+      this.numberOfComments = Math.floor(this.numberOfComments);
+      if (this.numberOfComments < 1) {
+        this.numberOfComments = 1;
+      }
+    }
   }
 }
