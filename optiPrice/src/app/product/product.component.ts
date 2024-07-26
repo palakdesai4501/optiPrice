@@ -30,7 +30,7 @@ export class ProductComponent implements AfterViewInit {
           renderer: 'svg',
           loop: true,
           autoplay: true,
-          path: 'assets/productAnimation.json' // Adjust the path to where you have stored the animation JSON file
+          path:'assets/productAnimation.json' // Adjust the path to where you have stored the animation JSON file
         });
       });
     }
