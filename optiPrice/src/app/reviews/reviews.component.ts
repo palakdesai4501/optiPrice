@@ -28,7 +28,7 @@ export class ReviewsComponent implements AfterViewInit {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'assets/ratingAnimation.json' // Adjust the path to where you have stored the animation JSON file
+        path: 'assets/ratingAnimation.json' 
       });
     }
   }
