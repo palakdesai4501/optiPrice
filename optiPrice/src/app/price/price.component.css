@@ -28,6 +28,14 @@
     font-size: 1em;
     transition: border-color 0.3s ease;
   }
+
+  .dollar-sign{
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-left: 8px;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+  }
   
   input[type="number"]:focus {
     outline: none;
@@ -50,7 +58,7 @@
   }
   
   .predicted-price input[type="number"] {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
   }
   
   @media (max-width: 600px) {
