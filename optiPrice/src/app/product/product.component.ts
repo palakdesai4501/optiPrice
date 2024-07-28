@@ -15,7 +15,28 @@ export class ProductComponent implements AfterViewInit {
 
   productName: string = '';
   selectedCategory: string = '';
-  categories: string[] = ['Electronics', 'Clothing', 'Books', 'Home & Garden', 'Toys'];
+  categories: string[] = [
+    'Electronics',
+    'Clothing',
+    'Books',
+    'Home & Garden',
+    'Toys',
+    'Sports & Outdoors',
+    'Beauty & Personal Care',
+    'Automotive',
+    'Grocery & Gourmet Food',
+    'Health & Wellness',
+    'Pet Supplies',
+    'Jewelry',
+    'Office Products',
+    'Tools & Home Improvement',
+    'Baby',
+    'Movies & TV',
+    'Music',
+    'Video Games',
+    'Arts & Crafts',
+    'Furniture'
+  ];
 
   private lottie: any;
 
