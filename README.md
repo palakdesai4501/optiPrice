@@ -40,7 +40,7 @@ Optimum Price Analysis for Sellers is a web application designed to assist regio
 
 1. **Clone the Repository**: 
     ```bash
-    git clone
+    git clone https://github.com/palakdesai4501/optiPrice.git
 
 2. **Navigate to the Project Directory**:
    ```bash
