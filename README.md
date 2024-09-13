@@ -1,8 +1,9 @@
+
 # Optimum Price Analysis for Sellers
 
 ## Overview
 
-Optimum Price Analysis for Sellers is a web application designed to assist regional vendors and product launchers in setting optimal prices for their products using advanced machine learning algorithms. The application analyzes the number of reviews, ratings, and pricing to predict the best pricing strategies and provides insights into sentiment patterns. This tool offers real-time recommendations to enhance sales performance and customer satisfaction.
+Optimum Price Analysis for Sellers is a web application designed to assist regional vendors and product launchers in setting optimal prices for their products using advanced machine learning algorithms. The application analyzes reviews, ratings, and pricing to predict the best pricing strategies and provides insights into sentiment patterns. This tool offers real-time recommendations to enhance sales performance and customer satisfaction.
 
 ## Features
 
@@ -11,23 +12,23 @@ Optimum Price Analysis for Sellers is a web application designed to assist regio
   - Secure storage of data using MongoDB.
 
 - **Data Processing**: 
-  - Data preprocessing to handle missing values, normalize data, and extract features.
-  - Feature extraction includes both quantitative (ratings, review counts) and qualitative (review text) attributes.
+  - Preprocessing to handle missing values, normalize data, and extract key features.
+  - Feature extraction includes quantitative (ratings, review counts) and qualitative (review text) attributes.
 
 - **Machine Learning Models**: 
-  - Uses Ridge Regression for price prediction, which provides better accuracy and reliability than linear regression.
-  - Implements Natural Language Processing (NLP) techniques for sentiment analysis of customer reviews.
+  - Ridge Regression for price prediction, providing high accuracy and reliability.
+  - Natural Language Processing (NLP) for sentiment analysis of customer reviews.
 
 - **Real-time Recommendations**: 
   - Provides dynamic, data-driven pricing recommendations.
   - Notifies users of significant changes in recommended prices.
 
 - **User Interface**:
-  - Interactive dashboard built with Angular for managing products and viewing recommendations.
-  - Visual gallery displaying best-selling products to help sellers improve product presentation and positioning.
+  - Angular-based interactive dashboard for managing products and viewing pricing recommendations.
+  - Visual gallery displaying best-selling products to help sellers improve product presentation.
 
 - **Reporting and Analytics**:
-  - Tracks key performance indicators (KPIs) such as sales volume, average rating, and customer sentiment.
+  - Tracks key performance indicators (KPIs) like sales volume, average rating, and customer sentiment.
   - Generates detailed reports on product performance and pricing trends.
 
 - **Security and Compliance**:
@@ -41,38 +42,42 @@ Optimum Price Analysis for Sellers is a web application designed to assist regio
 1. **Clone the Repository**: 
     ```bash
     git clone https://github.com/palakdesai4501/optiPrice.git
+    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
    cd optiPrice
+   ```
 
 3. **Install Backend Dependencies**:
-  - Ensure you have Python and pip installed, then run:
     ```bash
     pip install -r requirements.txt
-    
+    ```
+
 4. **Run the Backend Server**:
    ```bash
    python app.py
+   ```
 
 ### Frontend (Angular) Setup
 
 1. **Navigate to the Frontend Directory**:
-- After cloning the repository, navigate to the Angular project directory:
-  ```bash
-  cd src
+    ```bash
+    cd src
+    ```
 
 2. **Install Angular Dependencies**:
-- Ensure you have Node.js and npm installed, then run:
-  ```bash
-  npm install
+    ```bash
+    npm install
+    ```
 
 3. **Run the Angular Development Server**:
     ```bash
     ng serve
+    ```
 
 4. **Access the Application**:
-Open your web browser and go to `http://localhost:4200` to use the application.
+    Open your browser and go to `http://localhost:4200` to access the app.
 
 ## Technologies Used
 
@@ -80,15 +85,23 @@ Open your web browser and go to `http://localhost:4200` to use the application.
 - **Backend**: Python, Flask
 - **Database**: MongoDB
 - **Machine Learning**: Python (Scikit-Learn, NLP Libraries)
+- **Additional Tools**: SQL for database management
+
+## Skills Demonstrated in This Project
+
+- **Linear Regression and Ridge Regression Models**: 
+  - Developed and optimized a linear regression model using Python and SQL to analyze 2.1 million Amazon product records and predict optimal prices.
+
+- **Real-time Data Visualization**: 
+  - Connected back-end databases to a dynamic Angular front-end interface, enabling real-time data visualization similar to connecting data lakes to Tableau.
+
+- **Data Analytics and Feature Extraction**: 
+  - Applied advanced data analytics techniques to extract meaningful patterns from large datasets, allowing vendors to make data-driven decisions and optimize pricing strategies.
 
 ## Future Enhancements
 
-- Incorporate additional data sources such as social media sentiment analysis and competitor pricing.
+- Integrate data sources like social media sentiment analysis and competitor pricing.
 - Explore advanced machine learning techniques such as Random Forest and Gradient Boosting Machines.
-- Implement real-time data processing to allow vendors to adjust pricing strategies dynamically.
-- Enhance scalability and performance optimization for handling larger datasets and more users.
-- Integrate user feedback mechanisms to refine the model and improve user experience.
-
-
-
-
+- Implement real-time data processing for dynamic pricing strategy adjustments.
+- Enhance scalability and performance optimization for larger datasets and more users.
+- Incorporate user feedback mechanisms to improve the model and user experience.
