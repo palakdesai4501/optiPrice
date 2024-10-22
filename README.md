@@ -105,3 +105,8 @@ Optimum Price Analysis for Sellers is a web application designed to assist regio
 - Implement real-time data processing for dynamic pricing strategy adjustments.
 - Enhance scalability and performance optimization for larger datasets and more users.
 - Incorporate user feedback mechanisms to improve the model and user experience.
+
+![WhatsApp Image 2024-10-22 at 13 31 02_348f66fc](https://github.com/user-attachments/assets/fe3b6f97-252a-4fc7-9fdd-0380d931949c)
+![WhatsApp Image 2024-10-22 at 13 32 12_8100b7e5](https://github.com/user-attachments/assets/f0bc4ce7-118d-4f6e-8591-f2e2459058a5)
+
+
